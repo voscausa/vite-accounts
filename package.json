@@ -1,0 +1,24 @@
+{
+  "name": "vite-accounts",
+  "version": "0.0.0",
+  "author": "voscausa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voscausa/vite-accounts"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.44.0",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "firebase": "^9.6.1"
+  }
+}
